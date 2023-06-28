@@ -6,6 +6,7 @@ import {
   refreshToken,
   register,
 } from "../controllers/auth.controller.js";
+import authMiddleware from "../middlewares/auth.middleware.js";
 
 const router = express.Router();
 
